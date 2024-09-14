@@ -1,8 +1,14 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Virtual Classroom Classify Frontend Commands
 
-Currently, two official plugins are available:
+This file contains all the necessary commands to set up and run the frontend of the Virtual Classroom project.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Step-by-Step Commands
+
+- **Clone the repository**: `git clone https://github.com/your-username/virtual-classroom-frontend.git`
+- **Create a .env file in src directory and write** `VITE_API_URL=http://localhost:5000/api`
+- **open terminal**:
+- **go to client folder**: `cd client`
+- **Install dependencies**: `npm install`
+
+- **Run development server**: `npm run dev`
